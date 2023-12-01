@@ -1,5 +1,3 @@
-# import wmill
 
-
-def main()):
+def main():
     return "Hello"
