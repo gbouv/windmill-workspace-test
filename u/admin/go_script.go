@@ -6,6 +6,6 @@ import (
 )
 
 func main(x string) (interface{}, error) {
-	fmt.Printf("Hello %s\n", x)
+	fmt.Printf("Hellow %s\n", x)
 	return x, errors.New("failing")
 }
