@@ -9,6 +9,8 @@ value:
         input_transforms: {}
         lock: ''
         language: python3
+  concurrency_time_window_s: 0
+  early_return: a
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
