@@ -4,12 +4,11 @@ value:
   modules:
     - id: a
       value:
-        type: script
-        input_transforms:
-          x:
-            type: static
-            value: ''
-        path: u/admin/go_script
+        type: rawscript
+        content: '!inline inline_script_0.inline_script.py'
+        input_transforms: {}
+        lock: ''
+        language: python3
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
