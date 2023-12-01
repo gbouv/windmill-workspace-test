@@ -1,0 +1,26 @@
+summary: ''
+description: ''
+value:
+  modules:
+    - id: a
+      value:
+        type: script
+        input_transforms:
+          x:
+            type: static
+            value: ''
+        path: u/admin/go_script
+    - id: b
+      value:
+        type: script
+        input_transforms:
+          x:
+            type: static
+            value: ''
+        path: u/admin/go_script
+schema:
+  $schema: 'https://json-schema.org/draft/2020-12/schema'
+  type: object
+  properties: {}
+  required: []
+ws_error_handler_muted: false
