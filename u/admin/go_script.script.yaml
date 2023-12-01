@@ -1,0 +1,19 @@
+summary: ''
+description: ''
+lock:
+  - module mymod
+  - ''
+  - go 1.21.2
+  - //go.sum
+is_template: false
+kind: script
+schema:
+  $schema: 'https://json-schema.org/draft/2020-12/schema'
+  type: object
+  properties:
+    x:
+      type: string
+      description: ''
+      default: null
+  required:
+    - x
