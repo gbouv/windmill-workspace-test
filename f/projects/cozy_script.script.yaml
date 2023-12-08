@@ -18,4 +18,4 @@ schema:
       default: null
   required:
     - sleep_sec
-timeout: 15
+timeout: 1209600
