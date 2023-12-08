@@ -5,7 +5,6 @@ lock:
   - ''
   - go 1.21.2
   - //go.sum
-cache_ttl: 15
 concurrency_time_window_s: 0
 is_template: false
 kind: script
@@ -19,3 +18,4 @@ schema:
       default: null
   required:
     - sleep_sec
+timeout: 15
