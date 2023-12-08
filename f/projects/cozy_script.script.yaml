@@ -8,10 +8,10 @@ schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
   properties:
-    '':
-      type: object
+    sleep_sec:
+      type: integer
       description: ''
       default: null
   required:
-    - ''
+    - sleep_sec
 timeout: 5
