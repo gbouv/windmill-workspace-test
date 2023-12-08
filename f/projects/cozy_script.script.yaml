@@ -7,6 +7,11 @@ kind: script
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
-  properties: {}
-  required: []
+  properties:
+    '':
+      type: object
+      description: ''
+      default: null
+  required:
+    - ''
 timeout: 5
