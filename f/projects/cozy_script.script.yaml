@@ -1,10 +1,6 @@
 summary: ''
 description: ''
-lock:
-  - module mymod
-  - ''
-  - go 1.21.2
-  - //go.sum
+lock: []
 concurrency_time_window_s: 0
 is_template: false
 kind: script
@@ -13,3 +9,4 @@ schema:
   type: object
   properties: {}
   required: []
+timeout: 5
