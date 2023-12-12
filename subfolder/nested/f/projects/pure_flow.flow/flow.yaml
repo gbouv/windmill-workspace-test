@@ -16,13 +16,13 @@ value:
         tag: ''
       retry:
         constant:
-          attempts: 0
-          seconds: 0
-        exponential:
-          attempts: 1
-          multiplier: 1
-          random_factor: 0
+          attempts: 3
           seconds: 5
+        exponential:
+          attempts: 0
+          multiplier: 1
+          random_factor: null
+          seconds: 0
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
