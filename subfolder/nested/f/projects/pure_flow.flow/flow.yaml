@@ -9,7 +9,7 @@ value:
         input_transforms:
           x:
             type: static
-            value: null
+            value: ''
         lock: ''
         concurrency_time_window_s: 0
         language: python3
@@ -20,8 +20,8 @@ value:
           seconds: 0
         exponential:
           attempts: 3
-          multiplier: 1
-          seconds: 5
+          multiplier: 10
+          seconds: 1
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
