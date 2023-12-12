@@ -19,9 +19,9 @@ value:
           attempts: 0
           seconds: 0
         exponential:
-          attempts: 1
+          attempts: 3
           multiplier: 1
-          random_factor: 0
+          random_factor: 80
           seconds: 5
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
