@@ -14,15 +14,6 @@ value:
         concurrency_time_window_s: 0
         language: python3
         tag: ''
-      retry:
-        constant:
-          attempts: 0
-          seconds: 0
-        exponential:
-          attempts: 3
-          multiplier: 1
-          random_factor: 80
-          seconds: 5
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
