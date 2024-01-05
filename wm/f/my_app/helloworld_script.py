@@ -1,4 +1,4 @@
 def main():
-    msg = "Hello World!"
+    msg = "Hello World"
     print(msg)
     return {"msg": msg}
